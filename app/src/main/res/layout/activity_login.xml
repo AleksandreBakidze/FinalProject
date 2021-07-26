@@ -59,7 +59,7 @@
         android:layout_marginBottom="10dp"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@id/sweeftdigital_tv"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
@@ -80,16 +80,5 @@
             android:textStyle="bold"/>
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/sweeftdigital_tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Created For SweeftDigital"
-        android:textColor="@color/black"
-        android:gravity="center_horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.todolistsweeftdigital">
+    package="com.example.todolist">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ToDoListSweeftDigital">
 
-        <activity android:name=".SplashScreenActivity"
+        <activity android:name="com.example.todolist.SplashScreenActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -20,15 +20,15 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".RegisterActivity"
+        <activity android:name="com.example.todolist.RegisterActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"/>
 
-        <activity android:name=".LoginActivity"
+        <activity android:name="com.example.todolist.LoginActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"/>
 
-        <activity android:name=".MainActivity"
+        <activity android:name="com.example.todolist.MainActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"/>
     </application>

@@ -1,4 +1,4 @@
-package com.example.todolistsweeftdigital
+package com.example.todolist
 
 /*
 *   @Aleksandre Bakidze
@@ -16,9 +16,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.todolistsweeftdigital.databinding.ActivityMainBinding
-import com.example.todolistsweeftdigital.model.UserData
-import com.example.todolistsweeftdigital.view.UserAdapter
+import com.example.todolist.databinding.ActivityMainBinding
+import com.example.todolist.model.UserData
+import com.example.todolist.view.UserAdapter
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*

@@ -1,11 +1,11 @@
-package com.example.todolistsweeftdigital
+package com.example.todolist
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
-import com.example.todolistsweeftdigital.databinding.ActivityLoginBinding
+import com.example.todolist.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {

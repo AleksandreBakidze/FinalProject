@@ -1,4 +1,4 @@
-package com.example.todolistsweeftdigital.view
+package com.example.todolist.view
 
 import android.app.AlertDialog
 import android.content.Context
@@ -7,12 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
-import com.example.todolistsweeftdigital.R
-import com.example.todolistsweeftdigital.model.UserData
+import com.example.todolist.R
+import com.example.todolist.model.UserData
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.ktx.Firebase
 
 class UserAdapter(val c:Context,val userList:ArrayList<UserData>):RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
     private lateinit var database: DatabaseReference
