@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753578397567",
+    "project_id": "todolistsweeftdigital",
+    "storage_bucket": "todolistsweeftdigital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753578397567:android:3ca97f56223f5c6400144a",
+        "android_client_info": {
+          "package_name": "com.example.todolistsweeftdigital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753578397567-73e0h7nnidu4a05ah72tcjr5mk02gk02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEJ9tIY7xcgfIq4X-JF19dKp2QwB5xgGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753578397567-73e0h7nnidu4a05ah72tcjr5mk02gk02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
